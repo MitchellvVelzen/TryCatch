@@ -1,0 +1,25 @@
+﻿<Window x:Class="TryCatch.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TryCatch"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid Background="#FF8CB6F3">
+        <ListBox x:Name="lstGegevens" HorizontalAlignment="Left" Height="211" Margin="21,77,0,0" VerticalAlignment="Top" Width="290"/>
+        <Button x:Name="btnOef1" Content="Oefening 1" HorizontalAlignment="Left" Height="21" Margin="412,48,0,0" VerticalAlignment="Top" Width="95" Click="btnOef1_Click"/>
+        <Button x:Name="btnOef2" Content="Oefening 2" HorizontalAlignment="Left" Height="19" Margin="412,74,0,0" VerticalAlignment="Top" Width="95"/>
+        <Button x:Name="btnOef3" Content="Oefening 3" HorizontalAlignment="Left" Height="22" Margin="412,98,0,0" VerticalAlignment="Top" Width="95"/>
+        <Button x:Name="btnOef4" Content="Oefening 4" HorizontalAlignment="Left" Height="24" Margin="412,125,0,0" VerticalAlignment="Top" Width="95"/>
+        <Button x:Name="btnOef5" Content="Oefening 5" HorizontalAlignment="Left" Height="19" Margin="412,154,0,0" VerticalAlignment="Top" Width="95"/>
+        <Button x:Name="btnOef6" Content="Oefening 6" HorizontalAlignment="Left" Height="19" Margin="412,178,0,0" VerticalAlignment="Top" Width="95"/>
+        <Button x:Name="btnOef7" Content="Oefening 7" HorizontalAlignment="Left" Height="22" Margin="412,202,0,0" VerticalAlignment="Top" Width="95"/>
+        <Button x:Name="btnOef8" Content="Oefening 8" HorizontalAlignment="Left" Height="22" Margin="412,229,0,0" VerticalAlignment="Top" Width="95"/>
+        <Button x:Name="btnOef9" Content="Oefening 9" HorizontalAlignment="Left" Height="22" Margin="412,256,0,0" VerticalAlignment="Top" Width="95"/>
+        <Button x:Name="btnOef10" Content="Oefening 10" HorizontalAlignment="Left" Height="22" Margin="412,283,0,0" VerticalAlignment="Top" Width="95"/>
+        <TextBox x:Name="txtIngave" HorizontalAlignment="Left" Height="25" Margin="21,25,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="125"/>
+        <Button x:Name="btnLijstLeegmaken" Content="Maak lijst leeg" HorizontalAlignment="Left" Height="25" Margin="176,25,0,0" VerticalAlignment="Top" Width="119" Click="btnLijstLeegmaken_Click"/>
+
+    </Grid>
+</Window>
